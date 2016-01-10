@@ -1,0 +1,53 @@
+body {
+  background-color: #eee;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+}
+
+#header {
+  background-color: rgba(117, 105, 255, .5);
+  padding: 10px;
+}
+
+#main-content {
+  border: 2px solid magenta;
+  width: 897px;
+  float: right;
+}
+
+.image-gallery {
+  border: 2px solid black;
+  position: relative;
+}
+
+.image-gallery p {
+  position: absolute;
+  top: 20px;
+  background-color: rgba(0, 0, 0, .6);
+  color: white;
+  width: 90%;
+  padding: 10px 5%;
+}
+
+.image-gallery img {
+  width: 100%;
+}
+
+#sidebar {
+  background-color: rgba(117, 105, 255, .5);
+  border: 2px dotted black;
+  width: 295px;
+  float: left;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer {
+  clear: both;
+}
